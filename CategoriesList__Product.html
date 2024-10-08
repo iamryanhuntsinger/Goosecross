@@ -25,13 +25,13 @@
   <div class="ecp-section" data-ecp-handle="available">
     <form class="ecp-form">
       <div class="ecp-form-row ecp-clearfix">
-        <span class="button ecp-form-row-col-25">
-          <select name="product_qty" aria-label="{message:CategoriesList/ProductQuantityLabel_template}">
+        <span class="ecp-form-row-col-25">
+          <select class="button choose-quantity" name="product_qty" aria-label="{message:CategoriesList/ProductQuantityLabel_template}">
             <!-- | CategoriesList_Option template | -->
           </select>
         </span>
-        <span class="button ecp-form-row-col-75">
-          <button data-ecp-action="add-to-cart" data-ecp-handle="add_to_cart" aria-label="{message:CategoriesList/AddToCartButtonLabel_template}" aria-haspopup="dialog">{message:CategoriesList/AddToCartButton}</button>
+        <span class="ecp-form-row-col-75">
+          <button class="button add-to-cart" data-ecp-action="add-to-cart" data-ecp-handle="add_to_cart" aria-label="{message:CategoriesList/AddToCartButtonLabel_template}" aria-haspopup="dialog">{message:CategoriesList/AddToCartButton}</button>
           <span data-ecp-handle="add_more_to_cart">
             <button data-ecp-action="add-to-cart" aria-label="{message:CategoriesList/AddMoreToCartButtonLabel_template}" aria-haspopup="dialog">{message:CategoriesList/AddMoreToCartButton}</button>
             <p class="ecp-form-tip ecp-text-center">{message:CategoriesList/CartCount_template}</p>
