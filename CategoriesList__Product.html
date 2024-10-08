@@ -7,10 +7,7 @@
   </ul>
   <div class="ecp-html-subtitle" data-ecp-handle="feature_text">{message:feature_text}</div>
   <div class="ecp-columns ecp-clearfix">
-    <div class="ecp-columns-left">
-      <img src="{message:image_2}" alt="{message:CategoriesList/ImageAlt_template}">
-    </div>
-    <div class="ecp-columns-right">
+    <div>
       <span data-ecp-handle="discounted">
         <span class="ecp-price-discounted" aria-label="{message:CategoriesList/DiscountPriceLabel}">{currency:cart_discount_price}</span><span class="ecp-price-regular" aria-label="{message:CategoriesList/RegularPriceLabel}">{currency:cart_regular_price}</span>
       </span>
@@ -19,6 +16,11 @@
       </span>
       <div class="ecp-html-content">{message:display_title}</div>
     </div>
+    
+    <div>
+      <img src="{message:image_2}" alt="{message:CategoriesList/ImageAlt_template}">
+    </div>
+    
   </div>
   <div class="ecp-section" data-ecp-handle="available">
     <form class="ecp-form">
