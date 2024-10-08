@@ -25,12 +25,12 @@
   <div class="ecp-section" data-ecp-handle="available">
     <form class="ecp-form">
       <div class="ecp-form-row ecp-clearfix">
-        <span class="ecp-form-row-col-25">
+        <span class="button ecp-form-row-col-25">
           <select name="product_qty" aria-label="{message:CategoriesList/ProductQuantityLabel_template}">
             <!-- | CategoriesList_Option template | -->
           </select>
         </span>
-        <span class="ecp-form-row-col-75">
+        <span class="button ecp-form-row-col-75">
           <button data-ecp-action="add-to-cart" data-ecp-handle="add_to_cart" aria-label="{message:CategoriesList/AddToCartButtonLabel_template}" aria-haspopup="dialog">{message:CategoriesList/AddToCartButton}</button>
           <span data-ecp-handle="add_more_to_cart">
             <button data-ecp-action="add-to-cart" aria-label="{message:CategoriesList/AddMoreToCartButtonLabel_template}" aria-haspopup="dialog">{message:CategoriesList/AddMoreToCartButton}</button>
@@ -40,8 +40,9 @@
       </div>
     </form>
   </div>
+  
   <div class="ecp-section" data-ecp-handle="not_available">
-    <div class="ecp-callout-box">
+    <div class="button ecp-callout-box">
       <span data-ecp-handle="status_back_ordered">{message:CategoriesList/Status/BackOrdered}</span>
       <span data-ecp-handle="status_call">{message:CategoriesList/Status/Call}</span>
       <span data-ecp-handle="status_discontinued">{message:CategoriesList/Status/Discontinued}</span>
@@ -54,6 +55,7 @@
       <span data-ecp-handle="status_restricted_ship_state"></span>
     </div>
   </div>
+  
   <div class="ecp-section" data-ecp-handle="variants">
     <form class="ecp-form">
       <div class="ecp-form-row ecp-clearfix">
